@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>App_Market</display-name>
+  <welcome-file-list>
+  
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>controller</servlet-name>
+    <servlet-class>profit.controller.Controller</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/seller.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/register_done.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/user.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/client_action.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/cloudadmin.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/edit.jsp</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/edit_done.jsp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/buy</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/buy_done</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/gmail_click</url-pattern>
+  </servlet-mapping>
+  
+    <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/one_time_validate</url-pattern>
+  </servlet-mapping>
+  
+       <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/smart_card</url-pattern>
+  </servlet-mapping>
+  
+       <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/rank</url-pattern>
+  </servlet-mapping>
+  
+       <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/history_1.jsp</url-pattern>
+  </servlet-mapping>
+  
+       <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  
+       <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/purchase_confirmation</url-pattern>
+  </servlet-mapping>
+  
+        <servlet-mapping>
+    <servlet-name>controller</servlet-name>
+    <url-pattern>/buy_id_done</url-pattern>
+  </servlet-mapping>
+       
+  
+    
+</web-app>

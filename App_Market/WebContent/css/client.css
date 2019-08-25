@@ -1,0 +1,90 @@
+aside
+{
+	border:2px solid red;
+	background-color:black;
+	position: fixed;
+	float: left;
+	left: 0%;
+	top: 0%;
+	width: 20%;
+	height: 100%;
+}
+aside img
+{
+	
+	left: 0%;
+	top: 1%;
+	width: 100%;
+	height: 30%;
+}
+aside h3
+{
+	margin:10%;
+	color:white;
+	text-align: center;
+}
+
+header
+{
+	border:2px solid green;
+	position: fixed;
+	left: 20%;
+	top: 0%;
+	width: 80%;
+	height: 15%;
+}
+
+header h1
+{
+	text-align: center;
+}
+
+section
+{
+	border: 2px solid blue;
+	position: fixed;
+	left: 20%;
+	top:15%;
+	width: 80%;
+	height: 80%;
+	overflow: scroll;
+}
+
+section div
+{
+	display:inline-block;
+	margin:2%;
+	width: 20%;
+	height: 40%
+}
+
+section div form
+{
+	
+	width: 100%;
+	height: 100%;
+}
+section div form input
+{
+	width: 100%;
+	height: 80%;
+}
+
+section div form h3
+{
+	text-align: center;
+}
+
+
+footer
+{
+border: 2px solid yellow;
+position: fixed;
+left: 20%;
+top: 95%;
+width: 80%;
+height: 5%;
+}
+
+
+

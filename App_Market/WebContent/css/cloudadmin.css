@@ -1,0 +1,51 @@
+aside
+{
+	border:2px solid red;
+	position: fixed;
+	float: left;
+	left: 0%;
+	top: 0%;
+	width: 20%;
+	height: 100%;
+}
+
+header
+{
+	border:2px solid green;
+	position: fixed;
+	left: 20%;
+	top: 0%;
+	width: 80%;
+	height: 15%;
+}
+
+header h1
+{
+	text-align: center;
+}
+
+section
+{
+	border: 2px solid blue;
+	position: fixed;
+	left: 20%;
+	top:15%;
+	width: 80%;
+	height: 80%;
+	overflow: scroll;
+}
+
+
+
+
+
+
+footer
+{
+border: 2px solid yellow;
+position: fixed;
+left: 20%;
+top: 95%;
+width: 80%;
+height: 5%;
+}
